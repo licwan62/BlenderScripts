@@ -19,7 +19,7 @@
    1. **Bake multiple textures into an atlas**
       - Improves performance and simplifies asset management
    2. **Convert shaders to Principled BSDF** (required for exporting)
-      - Use the script [`mod_shaders_to_principledbsdf.py`](https://github.com/licwan62/Blender-Scripts/blob/master/mod_shaders_to_principledbsdf.py)
+      - Use the script [`mod_shaders_to_principledbsdf.py`](https://github.com/licwan62/BlenderScripts/blob/master/mod_shaders_to_principledbsdf.py)
    3. **(Optional)** Unpack image assets
       - Allows Blender to reference external image files (with reduced .blend file size)
 
@@ -53,7 +53,7 @@
    ### 6. Export to Unity via FBX
 
    1. Export models as FBX files
-   2. **(Optional)** Automate batch FBX export using [`export_fbx.py`](https://github.com/licwan62/Blender-Scripts/blob/master/export_fbx.py)
+   2. **(Optional)** Automate batch FBX export using [`export_fbx.py`](https://github.com/licwan62/BlenderScripts/blob/master/export_fbx.py)
       - Ideal for exporting all top-level objects in a scene
 
 ------
@@ -62,7 +62,7 @@
 
    To save time when managing numerous `.blend` files (e.g., applying a shader fix or exporting FBX):
 
-   1. Use the batch automation script [`batch.py`](https://github.com/licwan62/Blender-Scripts/blob/master/batch.py)
+   1. Use the batch automation script [`batch.py`](https://github.com/licwan62/BlenderScripts/blob/master/batch.py)
    2. Before running the script, configure:
       - Path to the Blender executable
       - Directory containing all Blender project files
