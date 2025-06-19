@@ -6,9 +6,11 @@
 
    ### 1. Set Up BLOSM (API for Generating Basic Map Tiles)
 
-   1. Download BLOSM from the official GitHub repository: https://github.com/vvoovv/blosm
-   2. Install and configure BLOSM in your Blender project
-   3. Import map tiles into the scene
+Video [Google Cities in Blender | Blender Blosm Add-on](https://youtu.be/ym9HtWzTc9o?si=0_BgL4aKgUb6h1ex)
+
+      1. Download BLOSM from the official GitHub repository: https://github.com/vvoovv/blosm
+      2. Install and configure BLOSM in your Blender project
+      3. Import map tiles into the scene
 
 ------
 
