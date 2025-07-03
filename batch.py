@@ -5,9 +5,9 @@ from pathlib import Path
 # Refer to your own blender executive path
 BLENDER_PATH = Path(r"C:\Program Files\Blender Foundation\Blender 4.4\blender.exe")
 # Refer to path where all project files to be processed
-TARGET_DIR = Path(r"Hamilton Simulator/blenders")
+TARGET_DIR = Path(r"D:\Scratch\Hamilton Simulator\blenders")
 # Python script's path for batch script to run at
-SCRIPT_PATH = Path(r"C:\Users\hzwlc\OneDrive\ONENOTE\Blender\export_fbx.py")
+SCRIPT_PATH = Path(r"C:\Users\hzwlc\source\blenders\export_fbx.py")
 
 for filename in os.listdir(TARGET_DIR):
     if filename.endswith(".blend"):
